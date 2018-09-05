@@ -1,0 +1,30 @@
+@import 'custom';
+@import "~bootswatch/dist/lux/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/lux/bootswatch";
+.bg-dark{
+	opacity: 0.8;
+}
+.footer{
+	background-color:black;
+	color:white;
+}
+.jumbotron{
+	padding-top:1.5rem;
+}
+.pagination{
+	justify-content:right;
+}
+.card-img-top:hover{
+	transform: scale(1.1);
+}
+
+.col-sm a{
+	text-decoration:underline;
+}
+.card-text{
+	display:inline-flex;
+}
+#fleet{
+	text-align:center;
+}
